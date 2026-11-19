@@ -1,0 +1,21 @@
+{
+  "name": "universal-booking-system",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Универсална система за резервации (React + Vite, симулирани данни)",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test:logic": "node scripts/smoke-test.mjs"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^5.4.11"
+  }
+}
